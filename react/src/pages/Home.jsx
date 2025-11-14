@@ -13,7 +13,7 @@ const convertData = (data) =>
     heritageName: h.heritageName,
     visitStatus: !!h.visitStatus,
     visitDate: h.visitDate || '',
-    instagramUploaded: !!h.instagramUploaded,
+    instagramUploadㄴed: !!h.instagramUploaded,
     revisit: !!h.revisit,
     note: h.note || ''
   }));
