@@ -2,8 +2,7 @@
 
 import React from 'react';
 import './HeritageCard.css';
-
-const hanokImg = '/assets/house.jpg'; // public/assets/house.jpg 이미지 사용
+import hanokImg from '/assets/house.jpg'; // public/assets/house.jpg 이미지 사용
 
 const HeritageCard = ({ heritage, onCheckChange }) => {
   const {
