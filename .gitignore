@@ -1,0 +1,19 @@
+# VS Code Local History
+.history/
+
+# Data files
+korea_heritage_stamp_tour_data.json
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
