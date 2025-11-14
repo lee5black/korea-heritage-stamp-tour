@@ -2,9 +2,9 @@
 
 import React from 'react';
 import './HeritageCard.css';
-import hanokImg from '/assets/house.jpg'; // public/assets/house.jpg 이미지 사용
 
 const HeritageCard = ({ heritage, onCheckChange }) => {
+  const hanokImg = `${import.meta.env.BASE_URL}assets/house.jpg`;
   const {
     id,
     region,
